@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 0.6s;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#map {
+    border-collapse: collapse;
+}
+
+#map td, th {
+    border: 2px solid #000;
+    text-align: center;
+}
+
+#map td {
+    font-size: 35px;
+    padding: 8px;
+}
